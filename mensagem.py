@@ -1,4 +1,7 @@
-mensagem = 'Hello World!'
+mensagem = 'Helllo World!'
 print(mensagem)
-print('Nova feature adicionada!')
-print('Vamos fazer um teste de merger!')
+
+def saudacao(nome):
+    print(f'Seja bem-vindo, {nome}!')
+
+saudacao('Asimov!')
